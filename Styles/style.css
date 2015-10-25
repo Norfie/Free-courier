@@ -56,7 +56,7 @@ font-family: "HelveticaNeueCyr" sans-serif;
 	font-weight: 300;
 }
 
-input {
+ .logininput {
 	border-radius: 3px;
 	margin-left: 7px;
 	color: #9f9f9f;
@@ -120,57 +120,83 @@ input {
 .square {
 	text-align: center;
 	padding-top: 20px;
-	font-size: 32px;
+	font-size: 34px;
 	font-weight: 500;
 	margin: 0px auto;
 	width: 710px;
 	height: 100px;
-	background: rgba(211, 211, 211, 0.4)
+	background: rgba(211, 211, 211, 0.4);
+	position: relative;
+	top: 35px;
 }
 
 .triangle {
 	margin: 0px auto;
 	width: 0px;
 	height: 0px;
-	border-top: 50px solid #D3D3D3;
+	border-top: 25px solid #D3D3D3;
 	border-left: 355px solid transparent;
 	border-right: 355px solid transparent;
 	opacity: 0.4;
+	position: relative;
+	top: 35px;
 }
 
-.first-imageblock {
-	margin: 35px 0px 0px 370px;
-	display: inline-block;
-	font-size: 25px;
+.first-imageblockdivs {
+	padding-top: 75px;
+	width: 840px;
+	margin: 0px auto;
 	color: #fff;
+	font-size: 24px;
+	font-weight: 300;
 	text-align: center;
-	line-height: 60px;
-	width: 320px;
-	height: 360px;
+}
+
+.first-imageblock1 {
+	width: 340px;
+	height: 325px;
+	float: left;
 	border: 5px solid white;
 }
 
-.boldf-i {
-	font-weight: bold;
+.first-imageblock2 {
+	width: 340px;
+	height: 325px;
+	float: right;
+	border: 5px solid white;
 }
 
 .inblockhr {
-	margin-left: 37px;
+	margin-left: 60px;
 	color: #fff;
 	size: 1px;
 	width: 220px;
 }
 
-#curier-button {
-	background-color: #139efe;
-	border: 1px solid #314f6e;
+.boldf-i {
+	font-weight: 500;
+}
+
+.f-ilinehei {
+	line-height: 43px;
+}
+
+.fiinput {
+	height: 50px;
+	width: 225px;
 	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+#curier-button {
+	background: linear-gradient(to bottom, #78cdff, #0f9cfe);
+	border: 1px solid #314f6e;
 }
 
 #client-button {
-	background-color: #f5ab2a;
+	background: linear-gradient(to bottom, #f8be59, #f3a00d);
 	border: 1px solid #c89138;
-	color: #fff;
 }
 
 /*Work safely*/
@@ -181,24 +207,169 @@ input {
 	background-color: #f6f5f5;
 }
 
+.safenessposition {
+	width: 350px;
+	margin: 0px auto;
+}
+
 .worksafely {
-	font-size: 25px;
-	margin-left: 775px;
+	margin-left: 65px;
+	font-size: 24px;
+	font-weight: 300;
+	position: relative;
+	top: 10px;
 }
 
 .safehr {
-	color: #dbdbdb;
-	size: 4px;
+	margin-left: 100px;
+	border: 1.5px solid #dbdbdb;
 	width: 150px;
-	margin-left: 800px;
+	margin-top: 13px;
 }
 
 .moreabout {
-	text-align: center;
-	font-size: 20px;
-	color: #00a33c;
-	margin-left: 750px; 
+	background: url("../Images/safeness.jpg") no-repeat left bottom;
+	padding: 18px 0px 10px 45px;
 	text-decoration: none;
-	border-bottom: 2px dotted #00a33c;
+	position: relative;
+	top: 20px;
 }
 
+.moreabouttext {
+	border-bottom: 2px dotted #00a33c;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 300;
+	color: #00a33c;
+}
+
+/*Service by client`s eyes*/
+
+.byclientseyes {
+	margin-top: 50px;
+}
+
+.Servicebce {
+	font-size: 24px;
+	font-weight: 300;
+	width: 390px;
+	margin: 0px auto;
+	background-color: #fff;
+	text-align: center;
+	position: relative;
+	top: -17px;
+}
+
+.hrbce {
+	border: 1.5px solid #55b8fe;
+	}
+
+.circlesposition {
+	width: 970px;
+	margin: 40px auto 0px auto;
+}
+
+.circle {
+	margin-right: 40px;
+	width: 270px;
+	height: 270px;
+	border-radius: 135px;
+	box-shadow: 0 0 30px #e0dcdc;
+	display: inline-block;
+	text-align: center;
+	overflow: hidden;
+	border: 4px solid #e9e6e6;
+}
+
+.circleshat {
+	height: 57px;
+	font-size: 20px;
+	font-weight: 500;
+	color: #fff;
+	background-color: #33aafe;
+	padding-top: 27px;
+}
+
+.circlestext {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 300;
+	color: #727070;
+	padding-top: 25px;
+}
+
+.circleshr {
+	border: 1px solid #55b8fe;
+	width: 135px;
+	margin-left: 75px;
+}
+
+/*second-image*/
+
+.second-image {
+	margin-top: 50px;
+	height: 435px;
+	background: url("../Images/second-image.jpg") no-repeat center center;
+	background-size: 100%;
+}
+
+.textposition {
+	width: 550px;
+	margin: 0px auto;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+}
+
+.Morethan600 {
+	padding-top: 40px;
+	font-size: 36px;
+}
+
+.previligies {
+	padding-top: 20px;
+	font-size: 24px;
+}
+
+.stepsposition {
+	width: 1100px;
+	margin: 20px auto 0px auto;
+}
+
+.step {
+	width: 170px;
+	margin-left: 40px;
+	vertical-align: top;
+	display: inline-block;
+	text-align: center;
+	font-weight: 500;
+	color: #fff;
+}
+
+.littlecircle {
+	margin-left: 60px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	border: 2px solid #fff;
+	font-size: 24px;
+	line-height: 52px;
+}
+
+.steptext {
+	padding-top: 20px;
+	font-size: 18px;
+}
+
+.s-iinput {
+	width: 225px;
+	margin: 20px auto 0px auto;
+}
+
+#delivery {
+	background: linear-gradient(to bottom, #f8be59, #f3a00d);
+	border: 1px solid #c89138;
+	font-size: 18px;
+	font-weight: 500;
+	height: 50px;
+}
