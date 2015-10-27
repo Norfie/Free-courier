@@ -210,10 +210,10 @@ font-family: "HelveticaNeueCyr" sans-serif;
 .safenessposition {
 	width: 350px;
 	margin: 0px auto;
+	text-align: center;
 }
 
 .worksafely {
-	margin-left: 65px;
 	font-size: 24px;
 	font-weight: 300;
 	position: relative;
@@ -237,15 +237,18 @@ font-family: "HelveticaNeueCyr" sans-serif;
 
 .moreabouttext {
 	border-bottom: 2px dotted #00a33c;
-	text-align: center;
 	font-size: 18px;
 	font-weight: 300;
 	color: #00a33c;
 }
 
-/*Service by client`s eyes*/
+/*Service by client`s or courier`s eyes*/
 
 .byclientseyes {
+	margin-top: 50px;
+}
+
+.bycourierseyes {
 	margin-top: 50px;
 }
 
@@ -270,7 +273,7 @@ font-family: "HelveticaNeueCyr" sans-serif;
 }
 
 .circle {
-	margin-right: 40px;
+	margin-left: 28px;
 	width: 270px;
 	height: 270px;
 	border-radius: 135px;
@@ -279,6 +282,10 @@ font-family: "HelveticaNeueCyr" sans-serif;
 	text-align: center;
 	overflow: hidden;
 	border: 4px solid #e9e6e6;
+	line-height: 25px;
+	font-size: 16px;
+	font-weight: 300;
+	color: #727070;
 }
 
 .circleshat {
@@ -292,10 +299,7 @@ font-family: "HelveticaNeueCyr" sans-serif;
 
 .circlestext {
 	display: inline-block;
-	font-size: 16px;
-	font-weight: 300;
-	color: #727070;
-	padding-top: 25px;
+	padding-top: 30px;
 }
 
 .circleshr {
@@ -321,7 +325,7 @@ font-family: "HelveticaNeueCyr" sans-serif;
 	color: #fff;
 }
 
-.Morethan600 {
+.Morethan {
 	padding-top: 40px;
 	font-size: 36px;
 }
@@ -372,4 +376,40 @@ font-family: "HelveticaNeueCyr" sans-serif;
 	font-size: 18px;
 	font-weight: 500;
 	height: 50px;
+}
+
+/*third-image*/
+
+.third-image {
+	margin-top: 50px;
+	height: 435px;
+	background: url("../Images/third-image.jpg") no-repeat center center;
+	background-size: 100%;
+}
+
+#becomecourier {
+	background: linear-gradient(to bottom, #78cdff, #0f9cfe);
+	border: 1px solid #314f6e;
+}
+
+.stepsposition2 {
+	width: 680px;
+	margin: 20px auto 0px auto;
+}
+
+/*table*/
+
+.Ourserviceyourhelper {
+	margin-top: 50px;
+}
+
+.Ourservice {
+	font-size: 24px;
+	font-weight: 300;
+	width: 690px;
+	margin: 0px auto;
+	background-color: #fff;
+	text-align: center;
+	position: relative;
+	top: -17px;
 }
