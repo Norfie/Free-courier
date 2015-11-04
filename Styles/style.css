@@ -269,7 +269,25 @@ font-family: "HelveticaNeueCyr" sans-serif;
 	margin: 40px auto 0px auto;
 }
 
+.circleabsolute {
+	display: inline-block;
+	position: relative;
+}
+
+.arrow1 {
+	position: absolute;
+	right: -53px;
+	top: 5px;
+}
+
+.arrow2 {
+	position: absolute;
+	right: -53px;
+	bottom: 5px;
+}
+
 .circle {
+	vertical-align: top;
 	margin-left: 28px;
 	width: 270px;
 	height: 270px;
@@ -296,7 +314,11 @@ font-family: "HelveticaNeueCyr" sans-serif;
 
 .circlestext {
 	display: inline-block;
-	padding-top: 30px;
+	padding-top: 25px;
+}
+
+.circlestext1 {
+	padding-top: 50px;
 }
 
 .circleshr {
@@ -544,6 +566,7 @@ font-family: "HelveticaNeueCyr" sans-serif;
 .hrfooter {
 	border: 1px solid #3f434e;
 	width: 640px;
+	margin: 0px auto;
 }
 
 .footertext {
