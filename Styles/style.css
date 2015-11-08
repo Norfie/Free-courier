@@ -9,6 +9,18 @@ font-family: "HelveticaNeueCyr" sans-serif;
 	src: url(../HelveticaNeueCyr/HelveticaNeueCyr.otf);
 }
 
+a {
+	cursor: pointer;
+}
+
+input[type="submit"] {
+	cursor: pointer;
+}
+
+input:active, input:hover {
+    outline: none;
+}
+
 /*header*/
 
 .header {
@@ -75,6 +87,10 @@ font-family: "HelveticaNeueCyr" sans-serif;
 	border: 1px solid #e7b051;
 }
 
+#login-button:hover {
+	background: linear-gradient(to top, #f8be59, #f4a214);
+}
+
 .forgetpass {
 	color: #f39e09;
 	margin-left: 190px;
@@ -114,7 +130,7 @@ font-family: "HelveticaNeueCyr" sans-serif;
 .first-image {
 	height: 600px;
 	background: url("../Images/first-image.jpg") no-repeat center center;
-	background-size: 100%;
+	/*background-size: 100%;*/
 	padding-top: 35px;
 }
 
@@ -191,9 +207,17 @@ font-family: "HelveticaNeueCyr" sans-serif;
 	border: 1px solid #314f6e;
 }
 
+#curier-button:hover {
+	background: linear-gradient(to top, #78cdff, #0f9cfe);
+}
+
 #client-button {
 	background: linear-gradient(to bottom, #f8be59, #f3a00d);
 	border: 1px solid #c89138;
+}
+
+#client-button:hover {
+	background: linear-gradient(to top, #f8be59, #f3a00d);
 }
 
 /*Work safely*/
@@ -333,7 +357,7 @@ font-family: "HelveticaNeueCyr" sans-serif;
 	margin-top: 50px;
 	height: 435px;
 	background: url("../Images/second-image.jpg") no-repeat center center;
-	background-size: 100%;
+	/*background-size: 100%;*/
 }
 
 .textposition {
@@ -407,18 +431,26 @@ font-family: "HelveticaNeueCyr" sans-serif;
 	height: 50px;
 }
 
+#delivery:hover {
+	background: linear-gradient(to top, #f8be59, #f3a00d);
+}
+
 /*third-image*/
 
 .third-image {
 	margin-top: 50px;
 	height: 435px;
 	background: url("../Images/third-image.jpg") no-repeat center center;
-	background-size: 100%;
+	/*background-size: 100%;*/
 }
 
 #becomecourier {
 	background: linear-gradient(to bottom, #78cdff, #0f9cfe);
 	border: 1px solid #314f6e;
+}
+
+#becomecourier:hover {
+	background: linear-gradient(to top, #78cdff, #0f9cfe);
 }
 
 .stepsposition2 {
@@ -505,7 +537,7 @@ font-family: "HelveticaNeueCyr" sans-serif;
 	height: 340px;
 	margin-top: 330px;
 	padding-top: 45px;
-	background-color: #4a505d;
+	background: url("../Images/footer.jpg") repeat center center;
 	box-shadow: inset 0px 5px 8px 1px #000;
 	font-weight: 500;
 }
@@ -513,7 +545,7 @@ font-family: "HelveticaNeueCyr" sans-serif;
 .sna {
 	border: none;
 	display: inline-block;
-	margin: 5px 5px 10px 0px;
+	margin: 20px 5px 25px 0px;
 }
 
 .snimg {
@@ -528,7 +560,7 @@ font-family: "HelveticaNeueCyr" sans-serif;
 
 .footerup {
 	display: inline-block;
-	margin: 0px 75px 150px 75px;
+	margin-bottom: 40px;
 }
 
 .footerright {
@@ -536,6 +568,8 @@ font-family: "HelveticaNeueCyr" sans-serif;
 	width: 200px;
 	font-size: 14px;
 	color: #fff;
+	margin-left: 150px;
+	text-align: center;
 }
 
 .footerleft {
@@ -552,15 +586,24 @@ font-family: "HelveticaNeueCyr" sans-serif;
 
 .footermenu {
 	display: inline-block;
-	margin-right: 50px;
+}
+
+.footermenu1 {
+	margin-right: 45px;
+}
+
+.footermenu2 {
+	margin-left: 45px;
 }
 
 .footermenu li{
 	list-style: none;
+	margin-top: 3px;
 }
 
 .footerdown {
 	text-align: center;
+	line-height: 20px;
 }
 
 .hrfooter {
