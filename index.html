@@ -2,8 +2,28 @@
 <html>
     <head>
     	<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link href="Styles\style.css" rel="stylesheet">
     	<title>Поиск курьеров</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            var touch = $('.touch-menu');
+            var menu = $('.menu');
+
+            $(touch).on('click', function(e) {
+                e.preventDefault();
+                menu.slideToggle();
+            });
+            $(window).resize(function(){
+                var wid = $(window).width();
+                if(wid > 865 && menu.is(':hidden')) {
+                    menu.removeAttr('style');
+                }
+            });
+        });
+        </script>
     </head>
     <body>
     	<div class="header">
@@ -29,9 +49,10 @@
 
    		 <div class="nav">
          <br>
+            <a href="ССЫЛКА" class="touch-menu">Меню</a>
     		<ul class="menu">
     			<li>
-    				<a href="ССЫЛКА" class="orange">Разместить заявку</a>
+    				<a href="ССЫЛКА" class="orange orange1">Разместить заявку</a>
     			</li>
     			<li>
     				<a href="ССЫЛКА" class="orange">Поиск заказов</a>
