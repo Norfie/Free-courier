@@ -1,12 +1,31 @@
 * { 
 margin: 0; 
 padding: 0; 
-font-family: "HelveticaNeueCyr" sans-serif;
 }
 
 @font-face {
-	font-family: "HelveticaNeueCyr";
-	src: url(../HelveticaNeueCyr/HelveticaNeueCyr.otf);
+	font-family: "HelveticaNeueCyr-Bold";
+	src: url(../HelveticaNeueCyr/HelveticaNeueCyr-Bold.otf);
+}
+
+@font-face {
+	font-family: "HelveticaNeueCyr-Black";
+	src: url(../HelveticaNeueCyr/HelveticaNeueCyr-Black.otf);
+}
+
+@font-face {
+	font-family: "HelveticaNeueCyr-Medium";
+	src: url(../HelveticaNeueCyr/HelveticaNeueCyr-Medium.otf);
+}
+
+@font-face {
+	font-family: "HelveticaNeueCyr-Roman";
+	src: url(../HelveticaNeueCyr/HelveticaNeueCyr-Roman.otf);
+}
+
+@font-face {
+	font-family: "HelveticaNeueCyr-Light";
+	src: url(../HelveticaNeueCyr/HelveticaNeueCyr-Light.otf);
 }
 
 a {
@@ -38,6 +57,15 @@ input:active, input:hover {
 	float: left;
 }
 
+.touch-login {
+	font-family: "HelveticaNeueCyr-Roman";
+	font-size: 18px;
+	margin-left: 15px;
+	text-decoration: none;
+	color: #000;
+	display: none;
+}
+
 .headerright {
 	float: right;
 	margin-top: 30px;
@@ -53,8 +81,8 @@ input:active, input:hover {
 }
 
 .F-C {
+	font-family: "HelveticaNeueCyr-Black";
 	font-size: 26px;
-	font-weight: 900;
 	font-style: italic;
 }
 
@@ -63,9 +91,9 @@ input:active, input:hover {
 }
 
 .Poiskkuryerov {
+	font-family: "HelveticaNeueCyr-Light";
 	margin-left: 65px;
 	font-size: 14px;
-	font-weight: 300;
 }
 
  .logininput {
@@ -74,7 +102,7 @@ input:active, input:hover {
 	color: #9f9f9f;
 	height: 30px;
 	font-size: 15px;
-	font-weight: 300;
+	font-family: "HelveticaNeueCyr-Light";
 	width: 135px;
 	border: 1px solid #e6e5e4;	
 }
@@ -82,7 +110,7 @@ input:active, input:hover {
 #login-button {
 	background: linear-gradient(to bottom, #f8be59, #f4a214);
 	color: #fff;
-	font-weight: 600;
+	font-family: "HelveticaNeueCyr-Medium";
 	width: 100px;
 	border: 1px solid #e7b051;
 }
@@ -95,7 +123,7 @@ input:active, input:hover {
 	color: #f39e09;
 	margin-left: 190px;
 	font-size: 13px;
-	font-weight: 300;
+	font-family: "HelveticaNeueCyr-Light";
 	text-decoration: none;
 	border-bottom: 1px dotted #f39e09;
 }
@@ -115,6 +143,7 @@ input:active, input:hover {
 }
 
 .orange {
+	font-family: "HelveticaNeueCyr-Roman";
 	font-size: 18px;
 	margin: 0px 12.5px 0px 12.5px;
 	text-decoration: none;
@@ -126,6 +155,7 @@ input:active, input:hover {
 }
 
 .touch-menu {
+	font-family: "HelveticaNeueCyr-Roman";
 	font-size: 18px;
 	margin-left: 15px;
 	text-decoration: none;
@@ -145,7 +175,7 @@ input:active, input:hover {
 	text-align: center;
 	padding-top: 20px;
 	font-size: 38px;
-	font-weight: 500;
+	font-family: "HelveticaNeueCyr-Medium";
 	margin: 0px auto;
 	width: 770px;
 	height: 100px;
@@ -168,7 +198,7 @@ input:active, input:hover {
 	margin: 0px auto;
 	color: #fff;
 	font-size: 24px;
-	font-weight: 300;
+	font-family: "HelveticaNeueCyr-Light";
 	text-align: center;
 }
 
@@ -194,7 +224,7 @@ input:active, input:hover {
 }
 
 .boldf-i {
-	font-weight: 500;
+	font-family: "HelveticaNeueCyr-Medium";
 }
 
 .f-ilinehei {
@@ -206,7 +236,7 @@ input:active, input:hover {
 	width: 225px;
 	color: #fff;
 	font-size: 18px;
-	font-weight: 500;
+	font-family: "HelveticaNeueCyr-Medium";
 }
 
 #curier-button {
@@ -243,7 +273,7 @@ input:active, input:hover {
 
 .worksafely {
 	font-size: 24px;
-	font-weight: 300;
+	font-family: "HelveticaNeueCyr-Light";
 	position: relative;
 	top: 10px;
 }
@@ -266,7 +296,7 @@ input:active, input:hover {
 .moreabouttext {
 	border-bottom: 2px dotted #00a33c;
 	font-size: 18px;
-	font-weight: 300;
+	font-family: "HelveticaNeueCyr-Light";
 	color: #00a33c;
 }
 
@@ -282,7 +312,7 @@ input:active, input:hover {
 
 .Servicebce {
 	font-size: 24px;
-	font-weight: 300;
+	font-family: "HelveticaNeueCyr-Light";
 	width: 390px;
 	margin: 0px auto;
 	background-color: #fff;
@@ -330,14 +360,14 @@ input:active, input:hover {
 	border: 4px solid #e9e6e6;
 	line-height: 25px;
 	font-size: 16px;
-	font-weight: 300;
+	font-family: "HelveticaNeueCyr-Light";
 	color: #727070;
 }
 
 .circleshat {
 	height: 57px;
 	font-size: 20px;
-	font-weight: 500;
+	font-family: "HelveticaNeueCyr-Medium";
 	color: #fff;
 	background-color: #33aafe;
 	padding-top: 27px;
@@ -370,7 +400,7 @@ input:active, input:hover {
 	width: 550px;
 	margin: 0px auto;
 	text-align: center;
-	font-weight: bold;
+	font-family: "HelveticaNeueCyr-Bold";
 	color: #fff;
 }
 
@@ -395,7 +425,7 @@ input:active, input:hover {
 	vertical-align: top;
 	display: inline-block;
 	text-align: center;
-	font-weight: 500;
+	font-family: "HelveticaNeueCyr-Medium";
 	color: #fff;
 }
 
@@ -405,7 +435,7 @@ input:active, input:hover {
 	vertical-align: top;
 	display: inline-block;
 	text-align: center;
-	font-weight: 500;
+	font-family: "HelveticaNeueCyr-Medium";
 	color: #fff;
 }
 
@@ -433,7 +463,7 @@ input:active, input:hover {
 	background: linear-gradient(to bottom, #f8be59, #f3a00d);
 	border: 1px solid #c89138;
 	font-size: 18px;
-	font-weight: 500;
+	font-family: "HelveticaNeueCyr-Medium";
 	height: 50px;
 }
 
@@ -471,7 +501,7 @@ input:active, input:hover {
 
 .Ourservice {
 	font-size: 24px;
-	font-weight: 300;
+	font-family: "HelveticaNeueCyr-Light";
 	width: 690px;
 	margin: 0px auto;
 	background-color: #fff;
@@ -490,7 +520,7 @@ input:active, input:hover {
 	background-color: #1cb1d7;
 	color: #fff;
 	font-size: 20px;
-	font-weight: 500;
+	font-family: "HelveticaNeueCyr-Medium";
 	text-align: center;
 	line-height: 35px;
 }
@@ -530,7 +560,7 @@ input:active, input:hover {
 
 .tablelink {
 	font-size: 16px;
-	font-weight: 300;
+	font-family: "HelveticaNeueCyr-Light";
 	text-decoration: none;
 	color: #000;
 	border-bottom: 1px dotted #000;
@@ -544,7 +574,7 @@ input:active, input:hover {
 	padding-top: 45px;
 	background: url("../Images/footer.jpg") repeat center center;
 	box-shadow: inset 0px 5px 8px 1px #000;
-	font-weight: 500;
+	font-family: "HelveticaNeueCyr-Medium";
 }
 
 .sna {
@@ -569,6 +599,7 @@ input:active, input:hover {
 }
 
 .footerright {
+	font-family: "HelveticaNeueCyr-Roman";
 	float: right;
 	width: 200px;
 	font-size: 14px;
@@ -578,6 +609,7 @@ input:active, input:hover {
 }
 
 .footerleft {
+	font-family: "HelveticaNeueCyr-Roman";
 	float: left;
 	width: 470px;
 }
@@ -618,6 +650,7 @@ input:active, input:hover {
 }
 
 .footertext {
+	font-family: "HelveticaNeueCyr-Roman";
 	color: #fff;
 	font-size: 14px;
 }
@@ -729,12 +762,25 @@ input:active, input:hover {
 		padding: 9px 0px 40px 52px;
 	}
 
+	.touch-login {
+		display: block;
+		margin-top: 40px;
+		text-align: center;
+	}
+
+	.touch-login:hover {
+		color: #f3a52c;
+	}
+
 	.headerright {
-	margin-top: 15px;
+		display: none;
+		position: absolute;
+		width: 100%;
+		background-color: #fff;
 	}
 
 	.header {
-		height: 190px;
+		height: 120px;
 	}
 }
 
@@ -769,13 +815,14 @@ input:active, input:hover {
 	.first-imageblock1, .first-imageblock2 {
 		float: none;
 		display: block;
-		height: 270px;
+		height: 230px;
 		margin: 0px auto 5px auto;
 	}
 
-	.first-image {
-		height: 706px;
-	}
+	.f-ilinehei {
+	line-height: 27px;
+}
+
 }
 
 @media (max-width: 640px) {
@@ -810,6 +857,7 @@ input:active, input:hover {
 	}
 
 	.first-imageblock1, .first-imageblock2 {
+		height: 272px;
 		width: 210px;
 		font-size: 18px;
 	}

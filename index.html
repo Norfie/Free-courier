@@ -24,6 +24,24 @@
             });
         });
         </script>
+
+        <script type="text/javascript">
+        $(document).ready(function(){
+            var touchl = $('.touch-login');
+            var login = $('.headerright');
+
+            $(touchl).on('click', function(e) {
+                e.preventDefault();
+                login.slideToggle();
+            });
+            $(window).resize(function(){
+                var wid = $(window).width();
+                if(wid > 315 && login.is(':hidden')) {
+                    login.removeAttr('style');
+                }
+            });
+        });
+        </script>
     </head>
     <body>
     	<div class="header">
@@ -35,6 +53,7 @@
                     <span class="Poiskkuryerov">Поиск курьеров по всей России</span>
                 </a>
     		</div>
+            <a href="ССЫЛКА" class="touch-login">Войти</a>
     		<div class="headerright">
     			<form action="ССЫЛКА" method="post" class="form">
     				<input type="text" id="textfield" placeholder="  Логин" class="logininput">
