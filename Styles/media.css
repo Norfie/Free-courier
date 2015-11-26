@@ -1,0 +1,305 @@
+@media (min-width: 1438px) {
+
+	.first-image, .second-image, .third-image {
+		background-size: 100%;
+	}
+
+}
+
+@media (max-width: 970px) {
+
+	.circlesposition {
+		width: 270px;
+		margin: 10px auto 0px auto;
+	}
+
+	.circleabsolute {
+		display: block;
+	}
+
+	.circle {
+		display: block;
+		margin: 0px 0px 10px 0px;
+	}
+
+	.arrow {
+		display: none;
+	}
+
+}
+
+@media (max-width: 865px) {
+
+	.menu {
+		display: none;
+		position: absolute;
+		width: 100%;
+		text-align: center;
+	}
+
+	.menu li{
+		display: block;
+		background-color: #fff;
+		padding-bottom: 5px;
+	}
+
+	.orange {
+		border-bottom: 1px solid #000;
+	}
+
+	.touch-menu {
+		display: block;
+		text-align: center;
+	}
+
+}
+
+@media (max-width: 790px) {
+
+	.first-imageblockdivs {
+		padding-top: 25px;
+	}
+
+	.square {
+		padding-top: 10px;
+		font-size: 25px;
+		width: 620px;
+		height: 70px;
+	}
+
+	.triangle {
+		border-top: 15px solid #D3D3D3;
+		border-left: 310px solid transparent;
+		border-right: 310px solid transparent;
+	}
+
+}
+
+@media (max-width: 780px) {
+
+	.header {
+		height: 150px;
+	}
+
+	.headerposition {
+		max-width: 410px;
+	}
+
+	.headerright {
+		margin-top: 40px;
+	}
+
+	.headerleft {
+		float: none;
+		max-width: 315px;
+		margin: 0px auto;
+	}
+
+}
+
+@media (max-width: 720px) {
+
+	.first-imageblock1, .first-imageblock2 {
+		float: none;
+		display: block;
+		height: 220px;
+		margin: 0px auto 5px auto;
+	}
+
+	.f-ilinehei {
+	line-height: 27px;
+	}
+
+}
+
+@media (max-width: 640px) {
+
+	.square {
+		padding-top: 10px;
+		font-size: 18px;
+		width: 350px;
+		height: 50px;
+	}
+
+	.triangle {
+		border-top: 10px solid #D3D3D3;
+		border-left: 175px solid transparent;
+		border-right: 175px solid transparent;
+	}
+
+}
+
+@media (max-width: 430px) {
+
+	.logininput {
+		display: block;
+		margin-bottom: 5px;
+	}
+
+	.header {
+		height: 220px;
+	}
+
+	.headerright {
+		float: none;
+	}
+
+	.forgetpass {
+		margin: 0px 0px 0px 7px;
+	}
+
+	.form {
+		width: 155px;
+		margin: 0px auto;
+	}
+
+}
+
+@media (max-width: 408px) {
+
+	.Servicebce {
+		width: 220px;
+	}
+	
+}
+
+@media (max-width: 370px) {
+
+	.touch-login {
+		display: block;
+		margin-top: 50px;
+		text-align: center;
+	}
+
+	.touch-login:hover {
+		color: #f3a52c;
+	}
+
+	.headerright {
+		display: none;
+		position: absolute;
+		width: 100%;
+		background-color: #fff;
+		padding-bottom: 5px;
+	}
+
+	.header {
+		height: 140px;
+	}
+
+	.first-image {
+		height: 600px;
+		padding-top: 25px;
+	}
+
+	.first-imageblockdivs {
+	    padding-top: 0px;
+	}
+
+	.square, .triangle {
+		display: none;
+	}
+
+	.first-imageblock1, .first-imageblock2 {
+		height: 272px;
+		width: 210px;
+		font-size: 18px;
+	}
+	
+	.inblockhr {
+		margin-left: 5px;
+		color: #fff;
+		size: 1px;
+		width: 200px;
+	}
+
+	.f-ilinehei {
+		line-height: 43px;
+	}
+
+	.fiinput {
+		height: 50px;
+		max-width: 200px;
+		color: #fff;
+		font-size: 16px;
+		font-weight: 500;
+	}
+
+	.worksafely {
+		font-size: 20px;
+	}
+
+	.safehr {
+		margin: 13px auto 0px auto;
+	}
+
+	.moreabout {
+		padding: 0px 0px 20px 35px;
+	}
+
+	.moreabouttext {
+		font-size: 14px;
+	}
+
+	.textpos {
+		width: 200px;
+		margin: 0px auto;
+	}
+
+}
+
+@media (max-width: 315px) {
+
+	.circle {
+		width: 210px;
+		height: 210px;
+		border-radius: 105px;
+		font-size: 12px;
+	}
+
+	.circleshat {
+		height: 50px;
+		font-size: 16px;
+		padding-top: 10px;
+	}
+
+	.circlestext {
+		padding-top: 10px;
+	}
+
+	.circlestext1 {
+		padding-top: 20px;
+	}
+
+	.circleshr {
+		width: 105px;
+		margin-left: 52.5px;
+	}
+
+	.circlesposition {
+		width: 210px;
+		margin: 0px auto;
+	}
+
+	.F-C {
+		font-size: 17px;
+	}
+
+	.Poiskkuryerov {
+		font-size: 12px;
+		margin-left: 47px;
+	}
+
+	.headerleft {
+		width: 240px;
+		margin: 0px auto;
+	}
+
+	.logolink {
+		background: url("../Images/logoadapt.jpg") no-repeat 0 5px;
+		position: relative;
+		top: 9px;
+		padding: 9px 0px 40px 52px;
+	}
+
+}
