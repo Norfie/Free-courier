@@ -9,21 +9,56 @@
 @media (max-width: 970px) {
 
 	.circlesposition {
-		width: 270px;
+		width: 800px;
 		margin: 10px auto 0px auto;
 	}
 
-	.circleabsolute {
-		display: block;
+	.circle {
+		margin: 0px 0px 10px 0px;
 	}
 
-	.circle {
-		display: block;
-		margin: 0px 0px 10px 0px;
+	.circle1 {
+		margin-left: 20px;
+		margin-right: 60px;
+	}
+
+	.circle2 {
+		margin-left: 145px;
+	}
+
+	.circle3 {
+		margin-left: 260px;
 	}
 
 	.arrow {
 		display: none;
+	}
+
+}
+
+@media (max-width: 910px) {
+
+	.Morethan {
+		padding-top: 20px;
+		font-size: 30px;
+	}
+
+	.previligies {
+		padding-top: 10px;
+		font-size: 20px;
+	}
+
+	.stepsposition {
+		width: 540px;
+	}
+
+	.step1 {
+		margin: 10px 0px 0px 60px;
+	}
+
+	.steptext {
+		padding-top: 10px;
+		font-size: 14px;
 	}
 
 }
@@ -50,6 +85,70 @@
 	.touch-menu {
 		display: block;
 		text-align: center;
+	}
+
+}
+
+@media (max-width: 830px) {
+
+	.circlesposition {
+		width: 600px;
+	}
+
+	.circle1 {
+		margin: 0px;
+	}
+
+	.circle2 {
+		margin-left: 40px;
+	}
+
+	.circle3 {
+		margin-left: 165px;
+	}
+
+}
+
+@media (max-width: 820px) {
+
+	.footer {
+		margin-top: 20px;
+		padding-top: 10px;
+	}
+
+	.footermenu {
+		display: block;
+	}
+
+	.footermenu1 {
+		margin-right: 0px;
+	}
+
+	.footermenu2 {
+		margin-left: 0px;
+	}
+
+	.footerposition {
+		width: 640px;
+	}
+
+	.footerleft {
+		width: 200px;
+		margin-left: 20px;
+	}
+
+	.footerright {
+		width: 170px;
+		margin-left: 250px;
+	}
+
+	.sna {
+		display: block;
+		margin: 5px 0px 0px 0px;
+	}
+
+	.footerup {
+		margin-bottom: 20px;
 	}
 
 }
@@ -97,6 +196,19 @@
 
 }
 
+@media (max-width: 750px) {
+
+	.step2 {
+		margin: 0px;
+	}
+
+	.stepsposition2 {
+		width: 520px;
+		margin: 20px auto 0px auto;
+	}
+
+}
+
 @media (max-width: 720px) {
 
 	.first-imageblock1, .first-imageblock2 {
@@ -112,8 +224,42 @@
 
 }
 
-@media (max-width: 640px) {
+@media (max-width: 708px) {
 
+	.Ourserviceyourhelper {
+		margin-top: 30px;
+	}
+
+	.Ourservice {
+		width: 230px;
+		font-size: 18px;
+	}
+
+}
+
+@media (max-width: 665px) {
+
+	.footerposition {
+		width: 440px;
+	}
+
+	.footerright {
+		margin-left: 50px;
+	}
+
+	.hrfooter {
+		width: 440px;
+	}
+
+	.footerdown {
+		width: 440px;
+		margin: 0px auto;
+	}
+
+}
+
+@media (max-width: 640px) {
+	
 	.square {
 		padding-top: 10px;
 		font-size: 18px;
@@ -125,6 +271,149 @@
 		border-top: 10px solid #D3D3D3;
 		border-left: 175px solid transparent;
 		border-right: 175px solid transparent;
+	}
+
+	.textposition {
+		width: 400px;
+	}
+
+	.Morethan {
+		padding-top: 10px;
+		font-size: 24px;
+	}
+
+	.previligies {
+		padding-top: 5px;
+		font-size: 18px;
+	}
+
+	.step {
+		padding-top: 5px;
+	}
+
+	.stepsposition {
+		width: 360px;
+	}
+
+	.step1 {
+		margin: 0px;
+	}
+
+	.step3 {
+		margin: 0px 0px 0px 90px;
+	}
+
+	.steptext {
+		padding-top: 5px;
+		font-size: 12px;
+	}
+
+	.littlecircle1 {
+		width: 40px;
+		height: 40px;
+		border-radius: 40px;
+		font-size: 20px;
+		line-height: 44px;
+	}
+
+}
+
+@media (max-width: 625px) {
+
+	.circle1, .circle2, .circle3 {
+		margin: 0px;
+	}
+
+	.circlesposition { 
+		width: 270px; 
+		margin: 10px auto 0px auto; 
+	} 
+
+	.circleabsolute { 
+		display: block; 
+	} 
+
+	.circle { 
+		display: block; 
+		margin: 0px 0px 10px 0px; 
+	} 
+}
+
+
+@media (max-width: 520px) {
+
+	.third-image {
+		height: 490px;
+	}
+
+	.step2 {
+		display: block;
+		margin: 10px auto 0px auto;
+	}
+
+	.stepsposition2 {
+		width: 170px;
+	}
+
+}
+
+@media (max-width: 465px) {
+
+	.footer {
+		height: 522px;
+	}
+
+	.footerposition {
+		width: 220px;
+	}
+
+	.hrfooter {
+		width: 210px;
+	}
+
+	.footerdown {
+		width: 220px;
+	}
+
+	.touch-footermenu {
+		margin: 10px 0px;
+		width: 220px;
+		display: block;
+		text-align: center;
+		color: #fff;
+		font-family: "HelveticaNeueCyr-Roman";
+		font-size: 20px;
+	} 
+
+	.footermenu {
+		display: none;
+		width: 220px;
+		text-align: center;
+	}
+
+	.snimg {
+		width: 30px;
+		height: 30px;
+		margin-left: 50px;
+	}
+
+	#qoo-counter {
+		margin-left: 50px;
+	}
+
+	.sntext {
+		text-align: center;
+		display: block;
+		width: 220px;
+	}
+
+	.footerleft, .footerright {
+		margin-left: 0px;
+		float: none;
+	}
+
+	.footertext {
+		font-size: 12px;
 	}
 
 }
@@ -155,7 +444,59 @@
 
 }
 
+@media (max-width: 415px) {
+
+	.third-image {
+		margin-top: 10px;
+	}
+
+	.second-image {
+		height: 490px;
+		margin-top: 10px;
+	}
+
+	.textposition {
+		width: 220px;
+	}
+
+	.Morethan {
+		font-size: 20px;
+	}
+
+	.stepsposition {
+		width: 150px;
+		margin-top: 10px;
+	}
+
+	.step {
+		width: 150px;
+		margin: 0px auto;
+	}
+
+	.littlecircle1 {
+		width: 20px;
+		height: 20px;
+		border-radius: 20px;
+		font-size: 10px;
+		line-height: 20px;
+	}
+
+	#delivery {
+		font-size: 15px;
+		height: 35px;
+	}
+
+}
+
 @media (max-width: 408px) {
+
+	.byclientseyes {
+		margin-top: 30px;
+	}
+
+	.bycourierseyes {
+		margin-top: 30px;
+	}
 
 	.Servicebce {
 		width: 220px;

@@ -43,6 +43,25 @@
             });
         });
         </script>
+
+        <script type="text/javascript">
+        $(document).ready(function(){
+            var touchf = $('.touch-footermenu');
+            var fmenu = $('.footermenu');
+
+            $(touchf).on('click', function(e) {
+                e.preventDefault();
+                fmenu.slideToggle();
+            });
+            $(window).resize(function(){
+                var wid = $(window).width();
+                if(wid > 465 && fmenu.is(':hidden')) {
+                    fmenu.removeAttr('style');
+                }
+            });
+        });
+        </script>
+
     </head>
     <body>
     	<div class="header">
@@ -144,7 +163,7 @@
             
             <div class="circlesposition">
                 <div class="circleabsolute">
-                    <div class="circle">
+                    <div class="circle circle1">
                         <div class="circleshat">
                             <p>1.Разместите</p>
                             <p>заявку</p>
@@ -163,7 +182,7 @@
                 </div>
 
                 <div class="circleabsolute">
-                    <div class="circle">
+                    <div class="circle circle2">
                         <div class="circleshat">
                             <p>2.Получайте</p>
                             <p>предложения</p>
@@ -181,7 +200,7 @@
                     </div>
                 </div>
 
-                <div class="circle">
+                <div class="circle circle3">
                     <div class="circleshat">
                         <p>3.Выберите</p>
                         <p>курьера</p> 
@@ -205,23 +224,23 @@
             </div>
             <div class="stepsposition">
                 <div class="step">
-                    <div class="littlecircle">1</div>
+                    <div class="littlecircle littlecircle1">1</div>
                     <div class="steptext">Удобное и быстрое размещение заявки</div>  
                 </div>
                 <div class="step">
-                    <div class="littlecircle">2</div>
+                    <div class="littlecircle littlecircle1">2</div>
                     <div class="steptext">Вы сами устанавливаете цену доставки</div>  
                 </div>
                 <div class="step">
-                    <div class="littlecircle">3</div>
+                    <div class="littlecircle littlecircle1">3</div>
                     <div class="steptext">Курьер в день заказа</div>  
                 </div>
-                <div class="step">
-                    <div class="littlecircle">4</div>
+                <div class="step step1">
+                    <div class="littlecircle littlecircle1">4</div>
                     <div class="steptext">Минимум бумажной волокиты</div>  
                 </div>
-                <div class="step">
-                    <div class="littlecircle">5</div>
+                <div class="step step1 step3">
+                    <div class="littlecircle littlecircle1">5</div>
                     <div class="steptext">Сотрудничество на прямую с курьером</div>  
                 </div>
             </div>
@@ -238,7 +257,7 @@
             
             <div class="circlesposition">
                 <div class="circleabsolute">
-                    <div class="circle">
+                    <div class="circle circle1">
                         <div class="circleshat">
                             <p>1.Разместите</p>
                             <p>заявку</p>
@@ -257,7 +276,7 @@
                 </div>
 
                 <div class="circleabsolute">
-                    <div class="circle">
+                    <div class="circle circle2">
                         <div class="circleshat">
                             <p>2.Получайте</p>
                             <p>предложения</p>
@@ -275,7 +294,7 @@
                     </div>
                 </div>
 
-                <div class="circle">
+                <div class="circle circle3">
                     <div class="circleshat">
                         <p>3.Выберите</p>
                         <p>курьера</p> 
@@ -408,6 +427,7 @@
             <div class="footerposition">
                 <div class="footerup">
                     <div class="footerleft">
+                    <a src="ССЫЛКА" class="touch-footermenu">Меню</a>
                         <ul class="footermenu footermenu1">
                             <li>
                                 <a href="ССЫЛКА" class="footerlink">Разместить заявку</a>
@@ -433,7 +453,7 @@
                     </div>
 
                     <div class="footerright">
-                        <p class="sntext">Мы в социальных сетях:</p>
+                        <div class="sntext">Мы в социальных сетях:</div>
                         <a href="ССЫЛКА" class="sna"><img src="Images/vk.jpg" class="snimg"></a>
                         <a href="ССЫЛКА" class="sna"><img src="Images/odn.jpg" class="snimg"></a>
                         <a href="ССЫЛКА" class="sna"><img src="Images/twitter.jpg" class="snimg"></a>

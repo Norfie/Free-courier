@@ -414,6 +414,10 @@ input:active, input:hover {
 	font-size: 24px;
 }
 
+.apreviligies {
+	display: none;
+}
+
 .stepsposition {
 	width: 900px;
 	margin: 20px auto 0px auto;
@@ -455,7 +459,7 @@ input:active, input:hover {
 }
 
 .s-iinput {
-	width: 225px;
+	width: 200px;
 	margin: 20px auto 0px auto;
 }
 
@@ -482,6 +486,7 @@ input:active, input:hover {
 #becomecourier {
 	background: linear-gradient(to bottom, #78cdff, #0f9cfe);
 	border: 1px solid #314f6e;
+	width: 170px;
 }
 
 #becomecourier:hover {
@@ -663,5 +668,9 @@ input:active, input:hover {
 .email {
 	color: #fff;
 	text-decoration: none;
+}
+
+.touch-footermenu {
+	display: none;
 }
 
